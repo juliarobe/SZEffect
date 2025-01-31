@@ -38,11 +38,9 @@ In this limit, the interaction cross section for a CMB photon with an electron c
 
 <figure style="text-align: center;">
 <img class="img-fluid" style="display: block; margin: 0 auto;" src="./images/scattering_geometry.PNG" width="500">
-<figcaption><b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7]</figcaption>
+<figcaption style="text-align: justify;"> <b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7]</figcaption>
 </figure>
 
-<h2 style="text-align: center;"><strong>Figure 1:</strong> Scattering geometry in the rest frame of the electron before the interaction [7] </h2>
-<img class="img-fluid" style="display: block; margin: 0 auto;" src="./images/scattering_geometry.PNG" width="500">
 
 If the geometry of the collision process in the electron rest frame is as shown in Figure 1, then the probability of a scattering with angle $\theta$ is
 <li>
