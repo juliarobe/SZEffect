@@ -95,6 +95,16 @@ since the integral is performed only over real angles, we have <br>
 <br>
 
 <li>
+  ```
+  \mu_1 = \begin{cases}
+-1 & \text{if } s \leq 0 \\
+\frac{1-e^{-s(1+\beta)}}{\beta} & \text{if } s \geq 0
+\end{cases}
+  ```
+</li>
+
+
+<li>
 $$\mu_1 = \begin{cases} -1 & \text{if } s \leq 0 \\ \frac{1-e^{-s(1+\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}$$
 </li>
 <li>
