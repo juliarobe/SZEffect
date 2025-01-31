@@ -38,7 +38,7 @@ In this limit, the interaction cross section for a CMB photon with an electron c
 <br>
 <figure style="text-align: center;">
 <img class="img-fluid" style="display: block; margin: 0 auto;" src="./images/scattering_geometry.PNG" width="500">
-<figcaption style="text-align: justify; width: 100%;"> <b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7]</figcaption>
+<figcaption style="margin: 0 auto; display: block; text-align: center;"><b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7]</figcaption>
 </figure>
 <br>
 <br>
