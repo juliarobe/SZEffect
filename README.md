@@ -18,9 +18,7 @@ Since the CMB is close to isotropic and characterized by a temperature $T_{CMB} 
   
 <ol>
 <li>
-  $$
-  I_{\nu} = \frac{2h\nu^3}{c^2}(e^{h\nu/k_BT_{CMB}}-1)^{-1}
-  $$
+  $I_{\nu} = \frac{2h\nu^3}{c^2}(e^{h\nu/k_BT_{CMB}}-1)^{-1}$
 </li>
 
 where $I_{max} \sim 3.7 \times 10^{-18} \frac{W}{m^2Hz sr}$ at $\nu_{max} \sim 160 GHz$, a photon density $n_{\gamma} \sim 4 \times 10^8 photons/m^3$, and mass density $\rho_{\gamma} \sim 5 \times 10^{-31} kg m^{-3}$.
