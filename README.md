@@ -24,16 +24,18 @@ Since the CMB is close to isotropic and characterized by a temperature $T_{CMB} 
 <br>
 where $I_{max} \sim 3.7 \times 10^{-18} \frac{W}{m^2Hz sr}$ at $\nu_{max} \sim 160 GHz$, a photon density $n_{\gamma} \sim 4 \times 10^8 photons/m^3$, and mass density $\rho_{\gamma} \sim 5 \times 10^{-31} kg m^{-3}$.
 <br>
+<br>
 When an electron scatters a photon, both the energy and direction of motion of both the electron and photon are altered. The change in properties of the photon can be described by the Compton scattering formula:
+<br>
   <br>
 <li>
   $\epsilon' = \frac{\epsilon}{1+\frac{\epsilon}{m_e c^2}(1-cos(\phi_{12}))}$
 </li>
   <br>
 where $\epsilon$ and $\epsilon'$ are the photon energies before and after the interaction, respectively, and $\phi_{12}$ is the angle at which the photon is deflected in the encounter.
-
+<br>
 For low energy photons and mildly to non-relativistic electrons, $\epsilon<<m_ec^2$ and the scattering is almost elastic ($\epsilon = \epsilon'$). This limit is applicable for the scatterings that occur in galaxy clusters that cause the SZE.
-
+<br>
 In this limit, the interaction cross section for a CMB photon with an electron can be described by the classical Thomson cross-section formula, which results in the limit $\epsilon' \rightarrow \epsilon$ <br>
 <br>
 <figure style="text-align: center;">
@@ -42,99 +44,104 @@ In this limit, the interaction cross section for a CMB photon with an electron c
 </figure>
 <br>
 <br>
-If the geometry of the collision process in the electron rest frame is as shown in Figure 1, then the probability of a scattering with angle $\theta$ is
+If the geometry of the collision process in the electron rest frame is as shown in Figure 1, then the probability of a scattering with angle $\theta$ is <br>
+  <br>
 <li>
   $p(\theta)d\theta = p(\mu)d\mu=(2\gamma^4(1-\beta\mu)^3)^{-1}d\mu$
 </li>
 
 <br>
-where the electron velocity $v_e = \beta c$ and $\mu = cos\theta$.
+where the electron velocity $v_e = \beta c$ and $\mu = cos\theta$. <br>
 
-The probability of a scattering to angle $\theta'$ is:
+The probability of a scattering to angle $\theta'$ is:<br>
 <li>
   $\phi(\mu';\mu)d\mu'=\frac{3}{8}(1+\mu^2\mu'^2+\frac{1}{2}(1-\mu^2)(1-\mu'^2))d\mu'$
 </li>
 <br>
-the change of photon direction causes the frequency of the scattered photon to be
+the change of photon direction causes the frequency of the scattered photon to be <br>
+<br>
 <li>
   $\nu''=\nu(1+\beta\mu')(1-\beta\mu)^{-1}$
 </li>
 <br>
-with $\mu' = cos\theta'$. 
-
-It is conventional to express the resulting scattering in terms of the logarithmic frequency shift caused by scattering, 
+with $\mu' = cos\theta'$. <br>
+<br>
+It is conventional to express the resulting scattering in terms of the logarithmic frequency shift caused by scattering, <br>
 <li>
   $s = log(\nu/\nu'')$
 </li>
 <br>
-where the probability that a single scattering of the photon causes a frequency shift $s$ from an electron with speed $\beta c$ is:
+where the probability that a single scattering of the photon causes a frequency shift $s$ from an electron with speed $\beta c$ is: <br>
 
 <li>
   $P(s;\beta)ds = \int p(\mu) d\mu \phi(\mu';\mu) (\frac{d\mu'}{ds}) ds$
 </li>
 <br>
-using equations (3-5), we can re-write this as
-
+using equations (3-5), we can re-write this as <br>
 <li>
   $P(s; \beta) = \frac{3}{16\gamma^{4}\beta} \int_{\mu_{1}}^{\mu_{2}}(1 + \beta\mu')(1+\mu^{2}\mu'^{2} + \frac{1}{2}(1-\mu^{2})(1-\mu'^{2}))(1-\beta\mu)^{-3}d\mu$
 </li>
 <br>
-where, using equations 5 and 6, $\mu$ can be expressed in terms of $\mu$ and $s$ as
+where, using equations 5 and 6, $\mu$ can be expressed in terms of $\mu$ and $s$ as <br>
+<br>
 
 <li>
   $\mu' = \frac{e^{s}(1-\beta \mu) -1}{\beta}$
 </li>
 <br>
-since the integral is performed only over real angles, we have
+since the integral is performed only over real angles, we have <br>
+<br>
+\mu_1 = \begin{cases} -1 & \text{if } s \leq 0 \\ \frac{1-e^{-s(1+\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}
 
 <li>
-$μ₁ = {-1 if s ≤ 0, (1-e⁻ˢ(1+β))/β if s ≥ 0}$
+$\mu_1 = \begin{cases} -1 & \text{if } s \leq 0 \\ \frac{1-e^{-s(1+\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}$
 </li>
 <li>
-$μ₂ = {-1 if s ≤ 0, (1-e⁻ˢ(1-β))/β if s ≥ 0}$
+$\mu_2 = \begin{cases} -1 & \text{if } s \leq 0 \ \frac{1-e^{-s(1-\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}$
 </li>
 <br>
 
-The width of the function to zero intensity in $s$,
+The width of the function to zero intensity in $s$, <br>
 
 <li>
   $\Delta s_0 = 2log(\frac{1+\beta}{1-\beta})$
 </li>
 <br>
-increases because increasing $\beta$ causes the frequency shift related to a given photon angular deflection to increase.
+increases because increasing $\beta$ causes the frequency shift related to a given photon angular deflection to increase. <br>
 
-The distribution of photon frequency shifts caused by scattering by a population of electrons is calculated from $P(s;\beta)$ by averaging over the electron ($\beta$) distribution.
+The distribution of photon frequency shifts caused by scattering by a population of electrons is calculated from $P(s;\beta)$ by averaging over the electron ($\beta$) distribution. <br>
 
-For photons that have been scattered once, the probability distribution of $s$, $P_{1}(s)$ is given by
+For photons that have been scattered once, the probability distribution of $s$, $P_{1}(s)$ is given by <br>
 
 <li>
   $P_{1}(s) = \int_{\beta_{lim}}^{1} p_{e}(\beta)d\beta P(s; \beta)$
 </li>
 <br>
-where $\beta_{lim}$ is the minimum value of $\beta$ capable of causing a frequency shift $s$,
+where $\beta_{lim}$ is the minimum value of $\beta$ capable of causing a frequency shift $s$, <br>
 
 <li>
   $\beta_{lim}= \frac{e^{|s|}-1}{e^{|s|}+1}$
 </li>
 <br>
-The assumptions we made to derive the probability that a single scattering of the photon will cause a frequency shift $s$, equation (8), put limitations on equation (13). However, CMB photons satisfy these assumptions provided that $\gamma \lessapprox 2 \times 10^{9}$. In galaxy clusters, the typical electron temperatures can be as much as $1.8 \times 10^{8} K$ (15 keV), but the corresponding Lorentz factors are still small, so we can ignore relativistic corrections to the scattering cross-section.
+The assumptions we made to derive the probability that a single scattering of the photon will cause a frequency shift $s$, equation (8), put limitations on equation (13). However, CMB photons satisfy these assumptions provided that $\gamma \lessapprox 2 \times 10^{9}$. In galaxy clusters, the typical electron temperatures can be as much as $1.8 \times 10^{8} K$ (15 keV), but the corresponding Lorentz factors are still small, so we can ignore relativistic corrections to the scattering cross-section. <br>
 
-If the electron velocities are assumed to follow a relativistic Maxwellian distribution,
+If the electron velocities are assumed to follow a relativistic Maxwellian distribution, <br>
 
 <li>
   $p_{e}(\beta)d\beta = \frac{\gamma^{5}\beta^{2}exp(-\frac{\gamma}{\Theta})d\beta}{\Theta K_{2}(\frac{1}{\Theta})}$
 </li>
 <br>
-where 
+where <br>
+<br>
 <li>
   $\Theta = \frac{k_{B}T_{e}}{m_{e}c^{2}}$
 </li>
 <br>
-and $K_{2}(z)$ is a modified Bessel function of the second kind and second order, then the resulting distribution of photon frequency shift factors can be calculated by a numerical integration of equation (13).
+and $K_{2}(z)$ is a modified Bessel function of the second kind and second order, then the resulting distribution of photon frequency shift factors can be calculated by a numerical integration of equation (13). <br>
 
-It is also useful to calculate the form of $P_{1}(s)$ for a power-law distribution of electron energies since electrons of this type can be found in the lobes of radio galaxies, and they can also produce a SZE. 
+It is also useful to calculate the form of $P_{1}(s)$ for a power-law distribution of electron energies since electrons of this type can be found in the lobes of radio galaxies, and they can also produce a SZE. <br>
 
-The power-law distribution of energies is given by:
+The power-law distribution of energies is given by: <br>
 
 <li>
   $p_e(\gamma) d\gamma = {A \gamma^{-\alpha} d\gamma if \gamma_1 \leq \gamma \leq \gamma_2, 0 otherwise}$
