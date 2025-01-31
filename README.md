@@ -36,6 +36,11 @@ For low energy photons and mildly to non-relativistic electrons, $\epsilon<<m_ec
 
 In this limit, the interaction cross section for a CMB photon with an electron can be described by the classical Thomson cross-section formula, which results in the limit $\epsilon' \rightarrow \epsilon$
 
+<figure style="text-align: center;">
+<img class="img-fluid" style="display: block; margin: 0 auto;" src="./images/scattering_geometry.PNG" width="500">
+<figcaption><b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7]</figcaption>
+</figure>
+
 <h2 style="text-align: center;"><strong>Figure 1:</strong> Scattering geometry in the rest frame of the electron before the interaction [7] </h2>
 <img class="img-fluid" style="display: block; margin: 0 auto;" src="./images/scattering_geometry.PNG" width="500">
 
