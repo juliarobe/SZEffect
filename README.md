@@ -15,8 +15,9 @@ The SZE has two different types: thermal SZE (tSZE) and kinetic SZE (kSZE). The 
 In this section, I will derive the spectrum distortion of both tSZE and kZSE. Most of this derivation can be found in [7].
 
 Since the CMB is close to isotropic and characterized by a temperature $T_{CMB} \approx 2.7 K$, specific intensity of the CMB is given by the Bose-Einstein equilibrium formula:
-<div style="text-align: center;"> 
-<ol>
+
+<div style="text-align: center;">
+<ol style="text-align: center; list-style-position: inside; padding: 0;">
 <li>
   $I_{\nu} = \frac{2h\nu^3}{c^2}(e^{h\nu/k_BT_{CMB}}-1)^{-1}$
 </li>
