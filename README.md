@@ -378,6 +378,8 @@ Here is the corresponding figure in [4]:
 <li>
   $D = 13.56 keV$
 </li>
+</div>
+</ol>
 
 With these values, along with the spectroscopically determined line-of-sight velocities listed in [4], I found:
 
