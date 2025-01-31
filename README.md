@@ -34,8 +34,10 @@ When an electron scatters a photon, both the energy and direction of motion of b
   <br>
 where $\epsilon$ and $\epsilon'$ are the photon energies before and after the interaction, respectively, and $\phi_{12}$ is the angle at which the photon is deflected in the encounter.
 <br>
+  
 For low energy photons and mildly to non-relativistic electrons, $\epsilon<<m_ec^2$ and the scattering is almost elastic ($\epsilon = \epsilon'$). This limit is applicable for the scatterings that occur in galaxy clusters that cause the SZE.
 <br>
+
 In this limit, the interaction cross section for a CMB photon with an electron can be described by the classical Thomson cross-section formula, which results in the limit $\epsilon' \rightarrow \epsilon$ <br>
 <br>
 <figure style="text-align: center;">
@@ -91,13 +93,12 @@ where, using equations 5 and 6, $\mu$ can be expressed in terms of $\mu$ and $s$
 <br>
 since the integral is performed only over real angles, we have <br>
 <br>
-\mu_1 = \begin{cases} -1 & \text{if } s \leq 0 \\ \frac{1-e^{-s(1+\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}
 
 <li>
-$\mu_1 = \begin{cases} -1 & \text{if } s \leq 0 \\ \frac{1-e^{-s(1+\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}$
+```\mu_1 = \begin{cases} -1 & \text{if } s \leq 0 \\ \frac{1-e^{-s(1+\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}```
 </li>
 <li>
-$\mu_2 = \begin{cases} -1 & \text{if } s \leq 0 \ \frac{1-e^{-s(1-\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}$
+```\mu_2 = \begin{cases} -1 & \text{if } s \leq 0 \ \frac{1-e^{-s(1-\beta)}}{\beta} & \text{if } s \geq 0 \end{cases}```
 </li>
 <br>
 
