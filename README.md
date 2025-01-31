@@ -34,14 +34,14 @@ where $\epsilon$ and $\epsilon'$ are the photon energies before and after the in
 
 For low energy photons and mildly to non-relativistic electrons, $\epsilon<<m_ec^2$ and the scattering is almost elastic ($\epsilon = \epsilon'$). This limit is applicable for the scatterings that occur in galaxy clusters that cause the SZE.
 
-In this limit, the interaction cross section for a CMB photon with an electron can be described by the classical Thomson cross-section formula, which results in the limit $\epsilon' \rightarrow \epsilon$
-
+In this limit, the interaction cross section for a CMB photon with an electron can be described by the classical Thomson cross-section formula, which results in the limit $\epsilon' \rightarrow \epsilon$ <br>
+<br>
 <figure style="text-align: center;">
 <img class="img-fluid" style="display: block; margin: 0 auto;" src="./images/scattering_geometry.PNG" width="500">
-<figcaption style="text-align: justify;"> <b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7]</figcaption>
+<figcaption style="text-align: justify; width: 100%;"> <b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7]</figcaption>
 </figure>
-
-
+<br>
+<br>
 If the geometry of the collision process in the electron rest frame is as shown in Figure 1, then the probability of a scattering with angle $\theta$ is
 <li>
   $p(\theta)d\theta = p(\mu)d\mu=(2\gamma^4(1-\beta\mu)^3)^{-1}d\mu$
