@@ -15,26 +15,28 @@ The SZE has two different types: thermal SZE (tSZE) and kinetic SZE (kSZE). The 
 In this section, I will derive the spectrum distortion of both tSZE and kZSE. Most of this derivation can be found in [7].
 
 Since the CMB is close to isotropic and characterized by a temperature $T_{CMB} \approx 2.7 K$, specific intensity of the CMB is given by the Bose-Einstein equilibrium formula:
-
+<br>
 <div style="text-align: center;">
 <ol style="text-align: center; list-style-position: inside; padding: 0;">
 <li>
   $I_{\nu} = \frac{2h\nu^3}{c^2}(e^{h\nu/k_BT_{CMB}}-1)^{-1}$
 </li>
-
+<br>
 where $I_{max} \sim 3.7 \times 10^{-18} \frac{W}{m^2Hz sr}$ at $\nu_{max} \sim 160 GHz$, a photon density $n_{\gamma} \sim 4 \times 10^8 photons/m^3$, and mass density $\rho_{\gamma} \sim 5 \times 10^{-31} kg m^{-3}$.
-
+<br>
 When an electron scatters a photon, both the energy and direction of motion of both the electron and photon are altered. The change in properties of the photon can be described by the Compton scattering formula:
+  <br>
 <li>
   $\epsilon' = \frac{\epsilon}{1+\frac{\epsilon}{m_e c^2}(1-cos(\phi_{12}))}$
 </li>
+  <br>
 where $\epsilon$ and $\epsilon'$ are the photon energies before and after the interaction, respectively, and $\phi_{12}$ is the angle at which the photon is deflected in the encounter.
 
 For low energy photons and mildly to non-relativistic electrons, $\epsilon<<m_ec^2$ and the scattering is almost elastic ($\epsilon = \epsilon'$). This limit is applicable for the scatterings that occur in galaxy clusters that cause the SZE.
 
 In this limit, the interaction cross section for a CMB photon with an electron can be described by the classical Thomson cross-section formula, which results in the limit $\epsilon' \rightarrow \epsilon$
 
-<h2 style="text-align: center;"><b>Figure 1:</b> Scattering geometry in the rest frame of the electron before the interaction [7] </h2>
+<h2 style="text-align: center;">**Figure 1:** Scattering geometry in the rest frame of the electron before the interaction [7] </h2>
 <img class="img-fluid" style="display: block; margin: 0 auto;" src="./images/scattering_geometry.PNG" width="500">
 
 If the geometry of the collision process in the electron rest frame is as shown in Figure 1, then the probability of a scattering with angle $\theta$ is
