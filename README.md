@@ -22,7 +22,8 @@ Since the CMB is close to isotropic and characterized by a temperature $T_{CMB} 
   $I_{\nu} = \frac{2h\nu^3}{c^2}(e^{h\nu/k_BT_{CMB}}-1)^{-1}$
 </li>
 <br>
-where $I_{max} \sim 3.7 \times 10^{-18} \frac{W}{m^2Hz sr}$ at $\nu_{max} \sim 160 GHz$, a photon density $n_{\gamma} \sim 4 \times 10^8 photons/m^3$, and mass density $\rho_{\gamma} \sim 5 \times 10^{-31} kg m^{-3}$.
+where: <br>
+$I_{max} \sim 3.7 \times 10^{-18} \frac{W}{m^2Hz sr}$ at $\nu_{max} \sim 160 GHz$, a photon density $n_{\gamma} \sim 4 \times 10^8 [photons/m^3]$, and mass density $\rho_{\gamma} \sim 5 \times 10^{-31} kg \dot m^{-3}$.
 <br>
 <br>
 When an electron scatters a photon, both the energy and direction of motion of both the electron and photon are altered. The change in properties of the photon can be described by the Compton scattering formula:
@@ -32,9 +33,9 @@ When an electron scatters a photon, both the energy and direction of motion of b
   $\epsilon' = \frac{\epsilon}{1+\frac{\epsilon}{m_e c^2}(1-cos(\phi_{12}))}$
 </li>
   <br>
-where $\epsilon$ and $\epsilon'$ are the photon energies before and after the interaction, respectively, and $\phi_{12}$ is the angle at which the photon is deflected in the encounter.
+where $\epsilon$ and $\epsilon'$ are the photon energies before and after the interaction, respectively, and $\phi_{12}$ is the angle at which the photon is deflected in the encounter. <br>
 <br>
-  
+<br>
 For low energy photons and mildly to non-relativistic electrons, $\epsilon<<m_ec^2$ and the scattering is almost elastic ($\epsilon = \epsilon'$). This limit is applicable for the scatterings that occur in galaxy clusters that cause the SZE.
 <br>
 
@@ -54,13 +55,13 @@ If the geometry of the collision process in the electron rest frame is as shown 
 
 <br>
 where the electron velocity $v_e = \beta c$ and $\mu = cos\theta$. <br>
-
+<br>
 The probability of a scattering to angle $\theta'$ is:<br>
 <li>
   $\phi(\mu';\mu)d\mu'=\frac{3}{8}(1+\mu^2\mu'^2+\frac{1}{2}(1-\mu^2)(1-\mu'^2))d\mu'$
 </li>
 <br>
-the change of photon direction causes the frequency of the scattered photon to be <br>
+the change of photon direction causes the frequency of the scattered photon to be: <br>
 <br>
 <li>
   $\nu''=\nu(1+\beta\mu')(1-\beta\mu)^{-1}$
@@ -69,12 +70,13 @@ the change of photon direction causes the frequency of the scattered photon to b
 with $\mu' = cos\theta'$. <br>
 <br>
 It is conventional to express the resulting scattering in terms of the logarithmic frequency shift caused by scattering, <br>
+<br>
 <li>
   $s = log(\nu/\nu'')$
 </li>
 <br>
 where the probability that a single scattering of the photon causes a frequency shift $s$ from an electron with speed $\beta c$ is: <br>
-
+<br>
 <li>
   $P(s;\beta)ds = \int p(\mu) d\mu \phi(\mu';\mu) (\frac{d\mu'}{ds}) ds$
 </li>
@@ -110,17 +112,17 @@ since the integral is performed only over real angles, we have <br>
 <br>
 
 The width of the function to zero intensity in $s$, <br>
-
+<br>
 <li>
   $\Delta s_0 = 2log(\frac{1+\beta}{1-\beta})$
 </li>
 <br>
 increases because increasing $\beta$ causes the frequency shift related to a given photon angular deflection to increase. <br>
-
+<br>
 The distribution of photon frequency shifts caused by scattering by a population of electrons is calculated from $P(s;\beta)$ by averaging over the electron ($\beta$) distribution. <br>
-
+<br>
 For photons that have been scattered once, the probability distribution of $s$, $P_{1}(s)$ is given by <br>
-
+<br>
 <li>
   $P_{1}(s) = \int_{\beta_{lim}}^{1} p_{e}(\beta)d\beta P(s; \beta)$
 </li>
@@ -134,7 +136,7 @@ where $\beta_{lim}$ is the minimum value of $\beta$ capable of causing a frequen
 The assumptions we made to derive the probability that a single scattering of the photon will cause a frequency shift $s$, equation (8), put limitations on equation (13). However, CMB photons satisfy these assumptions provided that $\gamma \lessapprox 2 \times 10^{9}$. In galaxy clusters, the typical electron temperatures can be as much as $1.8 \times 10^{8} K$ (15 keV), but the corresponding Lorentz factors are still small, so we can ignore relativistic corrections to the scattering cross-section. <br>
 <br>
 If the electron velocities are assumed to follow a relativistic Maxwellian distribution, <br>
-
+<br>
 <li>
   $p_{e}(\beta)d\beta = \frac{\gamma^{5}\beta^{2}exp(-\frac{\gamma}{\Theta})d\beta}{\Theta K_{2}(\frac{1}{\Theta})}$
 </li>
@@ -146,19 +148,25 @@ where <br>
 </li>
 <br>
 and $K_{2}(z)$ is a modified Bessel function of the second kind and second order, then the resulting distribution of photon frequency shift factors can be calculated by a numerical integration of equation (13). <br>
-
+<br>
 It is also useful to calculate the form of $P_{1}(s)$ for a power-law distribution of electron energies since electrons of this type can be found in the lobes of radio galaxies, and they can also produce a SZE. <br>
-
+<br>
 The power-law distribution of energies is given by: <br>
-
+<br>
 <li>
-  $p_e(\gamma) d\gamma = {A \gamma^{-\alpha} d\gamma if \gamma_1 \leq \gamma \leq \gamma_2, 0 otherwise}$
+  p_e(\gamma)d\gamma  = \begin{cases}
+A\gamma^{- \alpha}d\gamma & \text{   }  \gamma_1 \leq \gamma \leq \gamma_2 \\
+0 & \text{   } otherwise 
+\end{cases}
 </li>
 <br>
-where A is the normalizing constant <br>
+where A is the normalizing constant: <br>
 <br>
 <li>
-  $A = {\log(\gamma_2) - \log(\gamma_1) if \alpha = 1, ((1-\alpha)(\gamma_2^{1-\alpha} - \gamma_1^{1-\alpha}))^{-1} if \alpha \neq 1}$
+  A  = \begin{cases}
+log\gamma_2 - log\gamma_1  & \text{   }  \alpha = 1 \\
+(1-\alpha)((\gamma_2^{1-\alpha}-\gamma_1^{1-\alpha})^{-1}) & \text{   } \alpha\neq 1 
+\end{cases}
 </li>
 <br>
 
@@ -174,7 +182,7 @@ Now, if every photon in the incident CMB spectrum is scattered once, then the re
   $\frac{I(\nu)}{\nu} = \int_{0}^{\infty} d\nu_{0}P_{1}(\nu,\nu_0) \frac{I_{0}(\nu_{0})}{\nu_{0}}$
 </li>
 <br>
-where $P_{1}(\nu, \nu_{0}) = P_{1}(s)/\nu$ is the probability that a scattering occurs from frequency $\nu$ to $\nu_{0}$, and $I(\nu)/h\nu$ is the spectrum in photon number terms. <br>
+where $P_{1}(\nu, \nu_{0}) = \frac{P_{1}(s)}{/\nu}$ is the probability that a scattering occurs from frequency $\nu$ to $\nu_{0}$, and $\frac{I(\nu)}{/h\nu}$ is the spectrum in photon number terms. <br>
 <br>
 Since $P_{1}(s)$ is the frequency shift function, the scattered CMB spectrum can be rewritten as a convolution in $s = ln(\nu / \nu_{0})$: <br>
 <br>
@@ -202,7 +210,8 @@ and the full frequency re-distribution function from scattering is: <br>
   $P(s) = e^{-\tau_e}(\delta(s) + \tau_eP_1(s) + \frac{1}{2!}\tau_{e}^{2}P_2(s) + \cdots)$
 </li>
 <br>
-The re-distribution function $P_n(s)$ after $n$ scatterings is 
+The re-distribution function $P_n(s)$ after $n$ scatterings is: <br>
+<br>                                                           
 <li>
 $P_2(s) = \int dt_1 P_1(t_1) P_1(s-t_1)$
 </li>
@@ -277,7 +286,7 @@ is a dimensionless measure of time spent in the electron distribution, known as 
 <br>
 where the solution of (34) is $n = (e^{x_e}-1)^{-1}$ and the more general Bose-Einstein distributions $n = (e^{x_e + \alpha}-1)^{-1}$ are also solutions. <br>
 <br>
-For the CMB and hot electrons, $x_e \11 1$, so $\frac{\partial n}{\partial x_e}>>n,n^2$ and (34) becomes: <br>
+For the CMB and hot electrons, $x_e \ll 1$, so $\frac{\partial n}{\partial x_e}\gg n,n^2$ and (34) becomes: <br>
 <br>
 <li>
   $\frac{\partial n}{\partial y} = \frac{1}{x_{e}^{2}} \frac{\partial}{\partial x_e} x_{e}^{4}(\frac{\partial n}{\partial x_e})$
@@ -392,7 +401,7 @@ The kSZ contributions in Figure 4 somewhat match what [4] obtained, since in (a)
 Here is the corresponding figure in Mroczkowski et al. 2012 [4]:
 
 <figure style="text-align: center;">
-<img class="img-fluid" src="./images/tony_fig.png" width="500">
+<img class="img-fluid" src="./images/tony_fig.PNG" width="500">
 <figcaption><p style="text-align: center;"><b>Figure 5:</b> upper left: spectral sum of tSZE and kSZE flux densities for subcluster B, using measurments obtained from Bolocam. The best fit combined SZE is plotted as a solid blue line, with errors displayed as the cyan region. The kSZE contribution for best fit velocity is plotted in magenta. A pure tSZE spectrum to the data is plotted in red. Upper right: same as upper left, but using the directly measured flux density. Lower left: same as upper left, but for subcluster C. Lower right: same as upper right, but for subcluster C.</p></figcaption>
 </figure>
 <br>
