@@ -163,10 +163,10 @@ A\gamma^{- \alpha}d\gamma & \text{   }  \gamma_1 \leq \gamma \leq \gamma_2 \\
 where A is the normalizing constant: <br>
 <br>
 <li>
-  A  = \begin{cases}
-log\gamma_2 - log\gamma_1  & \text{   }  \alpha = 1 \\
-(1-\alpha)((\gamma_2^{1-\alpha}-\gamma_1^{1-\alpha})^{-1}) & \text{   } \alpha\neq 1 
-\end{cases}
+  \[A = \begin{cases}
+\log\gamma_2 - \log\gamma_1 & \text{if } \alpha = 1 \\
+(1-\alpha)((\gamma_2^{1-\alpha}-\gamma_1^{1-\alpha})^{-1}) & \text{if } \alpha \neq 1
+\end{cases} \]
 </li>
 <br>
 
